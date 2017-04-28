@@ -15,6 +15,7 @@
 		F9C951DC1EB3233A00963737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C951DA1EB3233A00963737 /* LaunchScreen.storyboard */; };
 		F9C951E71EB3233A00963737 /* _3_lecture_UIView_DrawingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C951E61EB3233A00963737 /* _3_lecture_UIView_DrawingsTests.m */; };
 		F9C951F21EB3233A00963737 /* _3_lecture_UIView_DrawingsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C951F11EB3233A00963737 /* _3_lecture_UIView_DrawingsUITests.m */; };
+		F9C952041EB3245700963737 /* DrawningView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C952031EB3245700963737 /* DrawningView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F9C951ED1EB3233A00963737 /* 23_lecture_UIView_DrawingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 23_lecture_UIView_DrawingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C951F11EB3233A00963737 /* _3_lecture_UIView_DrawingsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_lecture_UIView_DrawingsUITests.m; sourceTree = "<group>"; };
 		F9C951F31EB3233A00963737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C952021EB3245700963737 /* DrawningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawningView.h; sourceTree = "<group>"; };
+		F9C952031EB3245700963737 /* DrawningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawningView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		F9C951CB1EB3233A00963737 /* 23_lecture_UIView_Drawings */ = {
 			isa = PBXGroup;
 			children = (
+				F9C952021EB3245700963737 /* DrawningView.h */,
+				F9C952031EB3245700963737 /* DrawningView.m */,
 				F9C951CF1EB3233A00963737 /* AppDelegate.h */,
 				F9C951D01EB3233A00963737 /* AppDelegate.m */,
 				F9C951D21EB3233A00963737 /* ViewController.h */,
@@ -275,6 +280,7 @@
 			files = (
 				F9C951D41EB3233A00963737 /* ViewController.m in Sources */,
 				F9C951D11EB3233A00963737 /* AppDelegate.m in Sources */,
+				F9C952041EB3245700963737 /* DrawningView.m in Sources */,
 				F9C951CE1EB3233A00963737 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +434,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-3-lecture-UIView-Drawings";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -439,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-3-lecture-UIView-Drawings";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

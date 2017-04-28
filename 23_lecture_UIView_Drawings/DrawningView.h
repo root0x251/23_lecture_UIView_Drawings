@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DrawningView.h
 //  23_lecture_UIView_Drawings
 //
 //  Created by Slava on 28.04.17.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@class DrawningView;
-
-@interface ViewController : UIViewController
-
-@property(weak,nonatomic) IBOutlet DrawningView *drawingView;
+@interface DrawningView : UIView
 
 @end
-

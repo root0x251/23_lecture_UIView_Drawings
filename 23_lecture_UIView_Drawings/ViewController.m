@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DrawningView.h"
 
 @interface ViewController ()
 
@@ -25,5 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+#pragma mark - Orientation
+
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+    
+    [self.drawingView setNeedsDisplay];
+    
+}
 
 @end
